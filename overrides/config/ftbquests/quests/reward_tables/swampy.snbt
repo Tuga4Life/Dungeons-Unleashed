@@ -1,0 +1,102 @@
+{
+	icon: "duneons:witchglowpurple"
+	id: "684C87B7FDFB38A8"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:skeletonspear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:poleaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:rapier"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:powerfulbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:wizardarmor_2_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:wizardarmor_2_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mysteryarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mysteryarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{ item: "duneons:screamedbooks", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "duneons:magicwand", weight: 2.0f }
+		{ item: "duneons:souihealer", weight: 3.0f }
+		{ item: "duneons:oaktotem", weight: 3.0f }
+	]
+	title: "Swampy"
+}

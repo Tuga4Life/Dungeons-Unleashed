@@ -1,0 +1,691 @@
+{
+	autofocus_id: "70D325C598C9DD64"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_begining"
+	group: ""
+	icon: "supplementaries:globe"
+	id: "3404ECD0C4440D6D"
+	images: [
+		{
+			height: 21.0d
+			image: "ftbtestmodpack:textures/map.png"
+			rotation: 0.0d
+			width: 40.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			hover: ["Hidland Block Hills (Soon)"]
+			image: "duneons:textures/screens/locked.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 11.0d
+			y: -5.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FEEDEC938A9A675"]
+			description: [
+				"The &2Creeper Forest&f is a dark and atmospheric biome in which there are a lot of hostile mobs at night."
+				""
+				"Fiereflies can also appear."
+				""
+				"There may be valuable &6items&f here."
+				"Maybe you should navigate through the &4ruins&f."
+			]
+			hide_dependency_lines: true
+			id: "1A5345CE28D729D6"
+			rewards: [{
+				id: "52C1B3BA364AFD55"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				biome: "duneons:creeperforest"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "3977DEE59BA6EFA7"
+				title: "Creeper Forest"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A5345CE28D729D6"]
+			id: "0C4330B873483A15"
+			rewards: [
+				{
+					count: 4
+					id: "3976E9E3E54A5884"
+					item: "minecraft:emerald"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "3CAA027FE0A7B390"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "duneons:villager_statuesmooth"
+				id: "120D138F1BB42FC3"
+				structure: "duneons:village_creeperforest"
+				title: "Creeper Village"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1A5345CE28D729D6"]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A121F900A4264FD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E8E5F9BB1D334D7"
+					table_id: 4340937458461801627L
+					type: "loot"
+				}
+				{
+					count: 5
+					id: "5ACA79C0EF4202BE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					id: "7FF6C134D2C70703"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "minecraft:cave_spider"
+					id: "03501A2B3405AE5A"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "duneons:wraith"
+					icon: "duneons:wraith_spawn_egg"
+					id: "5748BCD491C4B0D8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "12882A003835E5F4"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "4D8C286E1B54FDCD"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Defeat"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A121F900A4264FD"]
+			description: [
+				"&8Suggy Swamps&f inhabited by &5witches&f!!"
+				"In it you will find a unique boss, &2corrupted cauldron&f, it is &4dangerous&f."
+			]
+			hide_dependency_lines: true
+			id: "2F923C6375BE5E2F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53565EFE69152B43"
+					type: "loot"
+				}
+				{
+					id: "4C1F3211E7D43B6A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Read my description!"
+			tasks: [{
+				biome: "duneons:soggy_swamp"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "0340267CC6D926DA"
+				title: "Soggy Swamp"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F923C6375BE5E2F"]
+			icon: "duneons:cauidronwitch"
+			id: "5415AF7A0B021424"
+			rewards: [
+				{
+					count: 4
+					id: "3DC8E02C5534E056"
+					item: "minecraft:emerald"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05555A617E1C47B0"
+					type: "loot"
+				}
+				{
+					id: "2B30EBC379BE6939"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "endrem:witch_pupil"
+				id: "1F5E16B6E0F5A819"
+				structure: "betterwitchhuts:witch_hut"
+				title: "Witch Hut"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F923C6375BE5E2F"]
+			icon: "duneons:cauidron"
+			id: "317A1BEB7946EC89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BF7F6A618FE9984"
+					table_id: 7515531102484379816L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "4D4E5186EF07393E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:witch"
+					icon: "duneons:witchglowpurple"
+					id: "23204D72E96EF0AA"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "duneons:caldrondead"
+					icon: "duneons:cauidron"
+					id: "1443CB0D56DCAA0C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Defeat"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A5345CE28D729D6"]
+			description: [
+				"&6Pumpkin Pastures&f is a great decorative biome with loot and unique mobs like Chiken Tower"
+				""
+				"You will also find mills and &7Phillagers Forts"
+			]
+			hide_dependency_lines: true
+			id: "003F14A477789FC4"
+			rewards: [{
+				id: "65E6BA9AA1018346"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				biome: "duneons:pumpkinpastures"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "51DEC5C5709A26AD"
+				title: "Pumpkin Pastures"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003F14A477789FC4"]
+			id: "44FB08D38AA31148"
+			rewards: [
+				{
+					count: 4
+					id: "4251BEBD0A179546"
+					item: "minecraft:emerald"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "4607BA7B7C73C4DC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "minecraft:carved_pumpkin"
+				id: "531896F022B3B10B"
+				structure: "duneons:pumpkinvillage"
+				title: "Pumpkin Village"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["003F14A477789FC4"]
+			icon: "duneons:firepumkin"
+			id: "38B3E260BC24C6CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65A4A2881B88BC69"
+					table_id: 1291425417862536205L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "357277D6E55FF565"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					id: "13C6F2D9C9012F89"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "minecraft:zombie"
+					id: "00EF7D07D590A636"
+					type: "kill"
+					value: 10L
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A5345CE28D729D6"]
+			description: [
+				"&4Redstone Mines&f are filled with them as monsters here you will meet the boss of &4REDSTONE GOLEM&f"
+				""
+				"It looks like burnt caves"
+			]
+			hide_dependency_lines: true
+			id: "72637FB015596625"
+			rewards: [{
+				id: "2DF128EAFA274483"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				biome: "duneons:redstonemines"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "5D2654B54622C2B6"
+				type: "biome"
+			}]
+			title: "Redstone Mines"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72637FB015596625"]
+			id: "12703374BAD0BC06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14582BAC14AB5DF7"
+					table_id: 2719152226647577285L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "518B08E7A4C57C89"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "duneons:redstonegolem"
+				icon: "duneons:red_stone_golem_skull"
+				id: "07A6B8887A1DE99F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Defeat"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72637FB015596625"]
+			description: [
+				"&eTHE FIERY FORGE IS DANEGEROUS&f"
+				"For beginners, it is &cinhabited by redstone golem&f"
+				"This biome is rich in a bunch of decor and unique loot"
+				""
+				"Diference from &4REDSTONE CAVES&f it has a larger boss in it"
+			]
+			hide_dependency_lines: true
+			id: "0EC9AAC6606F3B2C"
+			rewards: [{
+				id: "1BECE29B41789CBA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				biome: "duneons:fieryforgecave"
+				icon: "duneons:pillagerfurnace"
+				id: "31FE82FBFEC41D40"
+				type: "biome"
+			}]
+			title: "Fiery Forge "
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0EC9AAC6606F3B2C"]
+			id: "13B3BB396FC1360E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34E079D7588A722F"
+					table_id: 4031885374053818112L
+					type: "loot"
+				}
+				{
+					count: 15
+					id: "605E8B4988A2E441"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "duneons:monstrosityactive"
+				icon: "duneons:redstoneheadcrafting"
+				id: "4F0B49DD4EF5A3AE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			id: "4FEEDEC938A9A675"
+			rewards: [{
+				id: "7DC47F33C98211A5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Let's start the adventure Hero!"
+			tasks: [{
+				id: "0F92F7810CB3DB56"
+				item: "duneons:stonetablemaping"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1A5345CE28D729D6"]
+			description: [
+				"&aCactic Canyon&f is a new kind of mesa an ordinary decorative biome"
+				""
+				"You can go there solely beacause of its unusual environment"
+				""
+				"&8Phillager captain&f may also appear as a &areward"
+			]
+			hide_dependency_lines: true
+			id: "77E2F38EABEA4DA5"
+			rewards: [{
+				id: "12BD982E03EE025B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				biome: "duneons:cacticanyon"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "72E2591E53636CF4"
+				title: "Cacti Canyon"
+				type: "biome"
+			}]
+			title: "Cactic Canyon"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77E2F38EABEA4DA5"]
+			id: "4BF58AF0F7AA1050"
+			rewards: [
+				{
+					count: 4
+					id: "06F7005CA334E0C7"
+					item: "minecraft:emerald"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "1088C6DCD36A5351"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "duneons:canyoncactusflower"
+				id: "7E0D6357E14D5D85"
+				structure: "duneons:cactivillage"
+				title: "Cacti Village"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77E2F38EABEA4DA5"]
+			icon: {
+				Count: 1
+				id: "duneons:tgaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D323EB08F20F72D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78D2AE70C77CB4D6"
+					table_id: 6934707268309358752L
+					type: "loot"
+				}
+				{
+					count: 10
+					id: "0026A75D28160021"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "53101234449855E9"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:husk"
+					id: "72906B48740782D4"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "755945AAC76A5B08"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["56C047D02AC78362"]
+			id: "09E513B5EE7E4BBD"
+			rewards: [
+				{
+					count: 4
+					id: "27DE0CA957E6D969"
+					item: "minecraft:emerald"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "0834F67D300A3B64"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "duneons:desertcave"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:block/gold_key_anim"
+					}
+				}
+				id: "5CA6946764D54DA1"
+				title: "Desert Cave"
+				type: "biome"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77E2F38EABEA4DA5"]
+			hide_dependency_lines: true
+			id: "56C047D02AC78362"
+			rewards: [{
+				id: "2A399B5C9E403452"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "255EFE487CA35D91"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
+			title: "Desert Temple"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["56C047D02AC78362"]
+			icon: {
+				Count: 1
+				id: "duneons:vanguardshield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25A24A4E6E8AFCB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F8D90FA76807C5E"
+				table_id: 2400687926661933350L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "4C66678582306BB4"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "69ED4A50E7E1B26B"
+					type: "kill"
+					value: 30L
+				}
+			]
+			x: 7.0d
+			y: -2.5d
+		}
+	]
+	title: "&9The Begining"
+}

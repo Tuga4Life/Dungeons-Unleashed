@@ -1,0 +1,99 @@
+{
+	icon: {
+		Count: 1
+		id: "duneons:vanguardshield"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2150F4F32D40E926"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:ieerrifyingskeletonarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ieerrifyingskeletonarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mysteryarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mysteryarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{ item: "duneons:speedboots", weight: 3.0f }
+		{ item: "duneons:gongweakening" }
+		{ item: "duneons:energybag", weight: 3.0f }
+		{ item: "duneons:monkeytotem", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "duneons:sickles"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:rapier"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:smallbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Desert"
+}

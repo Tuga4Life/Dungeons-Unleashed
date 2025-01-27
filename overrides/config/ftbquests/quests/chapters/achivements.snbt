@@ -1,0 +1,487 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "achivements"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "duneons:textures/screens/weekly_top_plate1.png"
+		}
+	}
+	id: "036D23499A255A8B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A121F900A4264FD"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbtestmodpack:textures/out_of_the_woods.png"
+				}
+			}
+			id: "7CC0F6E1FCA250A9"
+			rewards: [{
+				count: 10
+				id: "54E94DDE150585C2"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Complete Creeper Forest"
+			tasks: [{
+				id: "30C40EFE55FA5AD5"
+				title: "Out of the Woods"
+				type: "checkmark"
+			}]
+			title: "Out of the Woods"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"317A1BEB7946EC89"
+				"38B3E260BC24C6CA"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbtestmodpack:textures/the_plot_thickens.png"
+				}
+			}
+			id: "57EFC616642056FF"
+			rewards: [{
+				count: 20
+				id: "5BE9AA1960DBFACF"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Complete Pumpkin Pastures and Soggy Swamp."
+			tasks: [{
+				id: "3097175E0D85B07D"
+				title: "The Plot Thickens"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"72637FB015596625"
+				"77E2F38EABEA4DA5"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbtestmodpack:textures/built_on_sand_set_in_stone.png"
+				}
+			}
+			id: "13B18FFEDD4F09E8"
+			rewards: [{
+				count: 50
+				id: "202EEC88EC1CA75B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Complete Redstone Caves and Cacti Canyon."
+			tasks: [{
+				id: "6DAE63C1FE7304A6"
+				title: "Built On Sand, Set in Stone"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "07FA2E075572E6B2"
+			rewards: [{
+				count: 30
+				id: "5F5C24297A060DE2"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Use artifacts to summon the Wolf, Llama and Iron Golem allies at least once each."
+			tasks: [{
+				advancement: "duneons:a_friendin_need"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/a_friend_in_need.png"
+					}
+				}
+				id: "7FB9C880027B026A"
+				type: "advancement"
+			}]
+			title: "A Friend in Need"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "253C7A661ADE2A3B"
+			rewards: [{
+				count: 20
+				id: "2F88937FF7DA5E2F"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Collect 500 gold over time."
+			tasks: [{
+				count: 500L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/a_piglins_best_friend.png"
+					}
+				}
+				id: "485A5F392A099862"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "A Piglin's Best Friend"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7B9EF7D1E0DD1FFD"
+			rewards: [
+				{
+					id: "4A60F3CA3C1359E0"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 30
+					id: "1BF09B619F472216"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Reach level 25."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/apprentice_adventurer.png"
+					}
+				}
+				id: "7DE3099A8432AFC6"
+				points: false
+				type: "xp"
+				value: 25L
+			}]
+			title: "Apprentice Adventurer"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0F8BC507872BE141"
+			rewards: [{
+				count: 50
+				id: "258394D412DED20E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Complete 10 Raids"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/bad_omen_good_loot.png"
+					}
+				}
+				id: "6B2335D305CFCAE2"
+				stat: "minecraft:raid_win"
+				title: "Bad Omen, Good Loot"
+				type: "stat"
+				value: 10
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "4EBFF72A1D12BB1E"
+			rewards: [{
+				count: 30
+				id: "5E9B14DBB099AC4F"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Collect a total of 1,000 emeralds."
+			tasks: [{
+				advancement: "duneons:chaching"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/cha_ching.png"
+					}
+				}
+				id: "2404A1FF5701001B"
+				type: "advancement"
+			}]
+			title: "Cha-ching!"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "40087737E66D8EF0"
+			rewards: [{
+				count: 30
+				id: "1FE9C50D99DC8ED1"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Defeat 2,500 mobs."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/diamond_sword.png"
+					}
+				}
+				id: "728DE4FBE8C8C6FC"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 2500
+			}]
+			title: "Diamond Sword"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "14A5811F60B97CCB"
+			rewards: [
+				{
+					id: "512724743106B473"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 100
+					id: "23A3C3558A921E62"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Reach level 50."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/expert_explorer.png"
+					}
+				}
+				id: "670A1FFDFEC1E301"
+				points: false
+				type: "xp"
+				value: 50L
+			}]
+			title: "Expert Explorer"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "6FFD0CD4DEB3FBCC"
+			rewards: [
+				{
+					id: "0222BFCC464AB098"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 10
+					id: "0C5C304C44F38C0D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Reach Level 10."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/scrappy_scout.png"
+					}
+				}
+				id: "5DA0E61ADF418EDD"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			title: "Scrappy Scout"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5C8E7FC9826C9E94"
+			rewards: [{
+				count: 10
+				id: "7C5ABB06A6C5C97E"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Defeat 50 mobs."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/wooden_sword.png"
+					}
+				}
+				id: "77286E72F04F6178"
+				stat: "minecraft:mob_kills"
+				title: "Wooden Sword"
+				type: "stat"
+				value: 50
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "0235530AB14EE7C8"
+			rewards: [{
+				count: 10
+				id: "4D93D034EA800317"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Find and open your first 'fancy' treasure chest."
+			tasks: [{
+				entity: "duneons:pigchest"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/fancy_that.png"
+					}
+				}
+				id: "4588A3EFDCB929E4"
+				title: "Fancy That!"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"56C047D02AC78362"
+				"0EC9AAC6606F3B2C"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbtestmodpack:textures/high_and_dry.png"
+				}
+			}
+			id: "4FD8EA2A91629AAC"
+			rewards: [{
+				count: 80
+				id: "20D18638E3E63963"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Complete Desert Temple, Fiery Forge and Highblock Halls."
+			tasks: [{
+				id: "58F35A05DAA68E13"
+				title: "High and Dry"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "16521938FAD51D11"
+			rewards: [{
+				count: 30
+				id: "2D155499334E94E4"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Open 100 treasure chests."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/more_for_me.png"
+					}
+				}
+				id: "7C809142296F79F0"
+				stat: "lootr:looted_stat"
+				title: "More For Me"
+				type: "stat"
+				value: 100
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "4BD4C38A615CCCA5"
+			rewards: [{
+				count: 100
+				id: "5DF937511A34D545"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Collect a total of 5,000 emeralds."
+			tasks: [{
+				count: 5000L
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftbtestmodpack:textures/oooh_shiny.png"
+					}
+				}
+				id: "09F0E61E33EAE542"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "More For Me"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20A8CBBD45E90FC8"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbtestmodpack:textures/pandamonium.png"
+				}
+			}
+			id: "3BBFF4281C91AE1E"
+			rewards: [{
+				count: 20
+				id: "37FEBE3F04ACD1CF"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Complete the Panda Plateau."
+			tasks: [{
+				id: "21197562B93ED23A"
+				title: "Pandamonium"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+	title: "Achievements"
+}

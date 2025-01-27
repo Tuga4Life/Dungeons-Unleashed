@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bambu_jungle"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "duneons:item/jungleplant_item"
+		}
+	}
+	id: "10B86753CAC2922B"
+	images: [{
+		height: 20.0d
+		image: "ftbtestmodpack:textures/jungle.png"
+		rotation: 0.0d
+		width: 30.0d
+		x: 8.5d
+		y: 2.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3404ECD0C4440D6D"]
+			description: [
+				"The biome is invaded by pandas and Whisperers a very diverse biome with a &2Jungle &5Abomination &4Boss&f"
+				"A lot of decorations and artifacts of remote applitation are here!"
+			]
+			id: "20A8CBBD45E90FC8"
+			rewards: [{
+				id: "1EFACD5FB4D540F6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				biome: "duneons:dingy_jungle"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "659E2A3BC49DBDC8"
+				title: "Panda Plateau"
+				type: "biome"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20A8CBBD45E90FC8"]
+			icon: "duneons:villagerstatuejungle"
+			id: "2FD910AE27FB32AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FD792AC3389EA3B"
+					table_id: 670585473364430093L
+					type: "loot"
+				}
+				{
+					count: 15
+					id: "5F62A34CE6DEB46C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "duneons:junglezombie"
+					icon: "duneons:junglezombie_spawn_egg"
+					id: "0C6DB40BE96FF9D7"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "duneons:whisperer"
+					icon: "duneons:whisperer_spawn_egg"
+					id: "53967EB63116CBE6"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "duneons:leaper"
+					icon: "duneons:leaper_spawn_egg"
+					id: "3B1B67CF971EEA8D"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "duneons:poisonquillvine"
+					icon: "duneons:poisonquillvine_spawn_egg"
+					id: "503FB62DC0826A62"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "7AB6FC1E6B99B0DC"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "Defeat"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20A8CBBD45E90FC8"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "duneons:textures/screens/map_button.png"
+				}
+			}
+			id: "161E0C3E2890FB22"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CEE7A5A877C0753"
+					table_id: 2857221964579405677L
+					type: "loot"
+				}
+				{
+					count: 15
+					id: "15E40A5138A69B42"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "duneons:textures/screens/map_button.png"
+						}
+					}
+					id: "64F1E3299A9F40A3"
+					structure: "duneons:jungle_ruins"
+					title: "Jungle Ruins"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "5D08209575A569D7"
+					type: "kill"
+					value: 30L
+				}
+				{
+					entity: "duneons:poisonquillvine"
+					icon: "duneons:poisonquillvine_spawn_egg"
+					id: "4145279FCA7EA536"
+					type: "kill"
+					value: 15L
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20A8CBBD45E90FC8"]
+			id: "4106FFBDE211037A"
+			rewards: [
+				{
+					count: 4
+					id: "12354C654B63C80A"
+					item: "minecraft:emerald"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "0863B19C9E86A615"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "supplementaries:textures/map_marker/jungle_temple.png"
+					}
+				}
+				id: "7ADB09DAD7124055"
+				structure: "betterjungletemples:jungle_temple"
+				title: "Jungle Temple"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4106FFBDE211037A"]
+			id: "3C33E41FF5EAEE92"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02C03BFFEE90189B"
+					table_id: 9151578045510515850L
+					type: "loot"
+				}
+				{
+					count: 15
+					id: "669F949B310E7273"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "duneons:abominationsleep"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "duneons:textures/screens/map_button.png"
+					}
+				}
+				id: "31E1F743F3409110"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+	]
+	title: "&2Bamboo Jungle"
+}

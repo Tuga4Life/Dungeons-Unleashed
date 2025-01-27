@@ -1,0 +1,130 @@
+{
+	icon: "duneons:red_stone_golem_skull"
+	id: "25BC5E8B1F8A92C5"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:strengthenironpickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ninjaarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ninjaarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:battlerobe_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:wolf_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:wolf_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:wolf_armor_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:fantomarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:fantomarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:minerarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:minerarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "duneons:screamedbooks", weight: 3.0f }
+		{ item: "duneons:tastybone", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "duneons:corruptedbeacona"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Redstone"
+}

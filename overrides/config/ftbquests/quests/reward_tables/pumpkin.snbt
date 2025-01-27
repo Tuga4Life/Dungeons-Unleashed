@@ -1,0 +1,72 @@
+{
+	icon: "minecraft:carved_pumpkin"
+	id: "11EC1093459B5C0D"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:vangardsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:sickles"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:longbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:archerarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:archerarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "duneons:featherblue" }
+		{ item: "duneons:windhorn", weight: 3.0f }
+		{ item: "duneons:golemsummon" }
+		{
+			item: {
+				Count: 1
+				id: "duneons:corruptedbeacona"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+	]
+	title: "Pumpkin"
+}

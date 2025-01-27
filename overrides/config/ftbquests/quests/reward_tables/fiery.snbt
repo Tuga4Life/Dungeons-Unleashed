@@ -1,0 +1,111 @@
+{
+	icon: "duneons:pillagerfurnace"
+	id: "37F42262C7921F00"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:dark_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:dark_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mercenary_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mercenary_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:full_platearmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:full_platearmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:maidhelemt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:scalemail_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{ item: "duneons:ironamulete", weight: 3.0f }
+		{ item: "duneons:souihealer", weight: 3.0f }
+		{ item: "duneons:totemofcasting", weight: 3.0f }
+		{ item: "duneons:oaktotem", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "duneons:great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:redbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Fiery"
+}

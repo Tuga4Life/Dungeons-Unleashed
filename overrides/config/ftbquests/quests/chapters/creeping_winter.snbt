@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creeping_winter"
+	group: ""
+	icon: "duneons:lamppostdownsnow"
+	id: "5D4750534D87A1C7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "&bCreeping Winter"
+}

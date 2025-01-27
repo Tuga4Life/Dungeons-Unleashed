@@ -1,0 +1,82 @@
+{
+	icon: "duneons:pandastatue"
+	id: "094E65EF636C8D0D"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:wizardarmor_2_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:wizardarmor_2_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:maidhelemt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "framedblocks:framed_reinforcement", weight: 3.0f }
+		{ item: "duneons:corruptedseeds", weight: 3.0f }
+		{ item: "duneons:lovemedallion", weight: 2.0f }
+		{ item: "duneons:wonderfulwheat", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "duneons:katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:whip_gear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:whip"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.75f
+		}
+	]
+	title: "Panda"
+}

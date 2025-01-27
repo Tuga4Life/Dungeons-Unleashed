@@ -1,0 +1,131 @@
+{
+	icon: "duneons:mossskeletonskull"
+	id: "27A6E43D1332FF6D"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:archerarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:archerarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mysteryarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mysteryarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ocelotarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ocelotarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "duneons:beenestitem", weight: 3.0f }
+		{ item: "duneons:ironamulete", weight: 3.0f }
+		{ item: "duneons:tastybone", weight: 3.0f }
+		{ item: "duneons:oaktotem", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "duneons:poleaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:strengthenironpickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:whip_gear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:whip"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.75f
+		}
+	]
+	title: "Jungle"
+}

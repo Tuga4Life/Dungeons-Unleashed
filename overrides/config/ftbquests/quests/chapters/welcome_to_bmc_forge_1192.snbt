@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_bmc_forge_1192"
+	group: ""
+	icon: "minecraft:book"
+	id: "7964C7035ACB2070"
+	images: [
+		{
+			click: "https://ko-fi.com/Tuga4Life"
+			height: 1.0d
+			image: "supplementaries:textures/gui/book/icon/kofi.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			click: "https://github.com/Tuga4Life/Dungeons-Unleashed/issues"
+			height: 1.0d
+			image: "supplementaries:textures/gui/book/icon/github.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "ftbtestmodpack:textures/screenshot_6.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "ftbtestmodpack:textures/screenshot_7.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 7.0d
+			image: "ftbtestmodpack:textures/screenshot_8.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This modpack is inspired by &6Minecraft Dungeons&r, the &4mod being used to make this happen is not complete&r. "
+				""
+				"            &e////&r&4IMPORTANT&r&e////&r"
+				"That being said, the authors do not provide information about the mod, there are items that do not have a recipe, there is no information about dungeons bosses and mobs such as drops, life of bosses, loot, how to locate(...), there is no way knowing where weapons and armor can be found, I can't apply the Lootr mod to the dungeons loot, there's a lot more to say about the mod but I'm sure the authors will do the things I just said in future updates. :)"
+				""
+				"As I make the modpack I will make all the information available to give you the &bbest experience&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:book"
+				tag: {
+					Enchantments: [{
+						id: "aqua_affinity"
+						lvl: 1
+					}]
+				}
+			}
+			id: "3F2D02FC3D0D627A"
+			rewards: [{
+				count: 12
+				id: "7556C37B2538ADCD"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "To start the tutorial, click on this quest and read the description."
+			tasks: [{
+				id: "1AB2BFBF701B5A15"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&eWelcome to Dungeons Unleashed!"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F2D02FC3D0D627A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				""
+				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				""
+				"When you click the square at the top left of your player display, your &8Curios &rslots will become visible. Some items, such as Elytras and Totems can be equipped here."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "64410F296946FBCC"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "0166D4298786FB62"
+				item: "naturalist:teddy_bear"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "5C39DCCFBC28A116"
+				title: "Click here!"
+				type: "checkmark"
+			}]
+			title: "&2Teams"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F2D02FC3D0D627A"]
+			description: [
+				"&9Tasks&r are things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				""
+				"&6Rewards&r are what you get after completing all &9Tasks&r. Click to claim."
+				""
+				"Quests will guide you to objectives to &afree&r this world from the &4clutches of Phillagers&r and other &1future dangers&r."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "08E93A4AC0E706F8"
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 9
+				id: "5DB78E7A0A9114F7"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "5C38BD0CFE8261DF"
+				title: "Click here!"
+				type: "checkmark"
+			}]
+			title: "&6Quests"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F2D02FC3D0D627A"]
+			description: [
+				"Press &bR &rwhile hovering over an item to view its Recipe"
+				""
+				"Press &bU &rwhile hovering over an item to view its Uses"
+				""
+				"Press &bRight Click &rwhile crouching to hold a block. (Useful for chests, doesn't work on all blocks)"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Press &bU&r to see Player Death History"
+				""
+				"Press &bMidle Button&r to Ping"
+				""
+				"Press &bR&f to Dash"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			id: "0368955DF1C10F79"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "2EA57B0D5999ABB6"
+				item: "duneons:t_wooden_chest"
+				type: "item"
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "4D662F0CDFC9A509"
+				title: "Click here!"
+				type: "checkmark"
+			}]
+			title: "&9Important Controls"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F2D02FC3D0D627A"]
+			description: [
+				"These modpacks take a long time to make and if you could by me a &4coffee&r I would be grateful <3"
+				""
+				"To buy me a coffee click on the &9donation&r button on the modpack website in curse forge or click on the image on the left side of the quest"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/gui/book/icon/kofi.png"
+				}
+			}
+			id: "15AFAA8512AFED11"
+			rewards: [{
+				id: "4580EE883999B780"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "791E400BAECCF812"
+				title: "Click here!"
+				type: "checkmark"
+			}]
+			title: "&4By me a coffe"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F2D02FC3D0D627A"]
+			description: [
+				"If you find bugs and problems that need to be resolved, use the &4issues&r page, which you can find on the modpack page on Curse Forge"
+				""
+				"Do not use the comments on the &6Curse Forge&r modpack page to report these issues"
+				""
+				"Click on the image on the right side of the quest to go to the &0GitHub page "
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:textures/gui/book/icon/github.png"
+				}
+			}
+			id: "70FA92A9BF7325B9"
+			rewards: [{
+				count: 6
+				id: "0F7ABEA7D31EE7C8"
+				item: "naturalist:cooked_catfish"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "49D921C3A45954CC"
+				title: "GitHub"
+				type: "checkmark"
+			}]
+			title: "&fGitHub"
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	title: " &dTutorial"
+}

@@ -1,0 +1,116 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "duneons:textures/screens/jungle_boss_icon.png"
+		}
+	}
+	id: "7F00EFBEC8EAFC8A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:ghostkindlerblack_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ghostkindlerblack_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mercenary_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:mercenary_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ocelotarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ocelotarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ninjaarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:ninjaarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "duneons:corruptedseeds", weight: 3.0f }
+		{ item: "duneons:souihealer", weight: 3.0f }
+		{ item: "duneons:windhorn", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "duneons:tgaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Jungle Abomination "
+}

@@ -1,0 +1,99 @@
+{
+	icon: "duneons:bighighlandbanner"
+	id: "7664C489D07CD12B"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "duneons:spirit_robe_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:spirit_robe_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:sproutrobe_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:cowardarmor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:cowardarmor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "duneons:mushroomfoods", weight: 3.0f }
+		{ item: "duneons:featherblue", weight: 3.0f }
+		{ item: "duneons:lovemedallion", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "duneons:tgaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:macefix"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:rapierred"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "duneons:redbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Highblock"
+}
